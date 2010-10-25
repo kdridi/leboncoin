@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{leboncoin}
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{leboncoin toolkit.}
+  s.summary = %q{Let's search through leboncoin.fr items!}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
