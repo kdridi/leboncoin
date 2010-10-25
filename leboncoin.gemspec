@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{leboncoin}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Karim DRIDI"]
   s.date = %q{2010-10-25}
   s.description = %q{leboncoin toolkit.}
   s.email = %q{karim.dridi@gmail.com}
-  s.extra_rdoc_files = ["CHANGELOG", "README.rdoc", "lib/leboncoin.rb"]
-  s.files = ["CHANGELOG", "README.rdoc", "Rakefile", "lib/leboncoin.rb", "Manifest", "leboncoin.gemspec"]
+  s.extra_rdoc_files = ["README.rdoc", "lib/leboncoin.rb"]
+  s.files = ["README.rdoc", "lib/leboncoin.rb", "leboncoin.gemspec"]
   s.homepage = %q{http://github.com/kdridi/leboncoin}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Leboncoin", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
