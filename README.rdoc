@@ -1,0 +1,17 @@
+= Leboncoin
+
+Search library for leboncoin.fr
+
+== Install
+
+  gem install kdridi-leboncoin --source http://gems.github.com
+
+== Usage
+
+Blablabla	...
+
+  Leboncoin.seach("keywords")
+
+== License
+
+No license yet
