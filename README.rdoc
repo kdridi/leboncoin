@@ -1,16 +1,18 @@
 = Leboncoin
 
-Search library for leboncoin.fr
+  Let's search through leboncoin.fr items!
 
 == Install
 
-  gem install kdridi-leboncoin --source http://gems.github.com
+  gem install leboncoin
 
 == Usage
 
-Blablabla	...
-
-  Leboncoin.seach("keywords")
+  LeBonCoin::Search('dreamcast', 10).each do |item|
+    puts "#{item['title']}"
+  end
+  puts LeBonCoin::Search('dreamcast').to_json
+  puts LeBonCoin::Search('dreamcast').to_rss
 
 == License
 
